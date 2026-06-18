@@ -7,7 +7,7 @@ pool:
 steps:
 - task: Maven@4
   inputs:
-    mavenPomFile: 'Javateam/pom.xml'
+    mavenPomFile: 'pom.xml'
     goals: 'package'
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
